@@ -22,7 +22,7 @@ header {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   text-align: center;
-  margin-top: 40vh;
+  margin-top: 38vh;
   letter-spacing: 17px;
   text-indent: 20px;
 }
@@ -33,13 +33,13 @@ header {
 }
 .scroll-request img {
   height: 70px;
-  width: auto;
+  width: 40px;
 }
 
 h1 {
   font-size: 4rem;
   position: relative;
-  top: 41%;
+  top: 39%;
 }
 
 main {
