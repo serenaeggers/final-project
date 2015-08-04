@@ -1,6 +1,6 @@
 body {
   background-color: #8e8585;
-  height: 1000px;
+  height: 100vh;
 }
 
 header {
@@ -18,9 +18,18 @@ header {
   background-repeat: no-repeat;
 }
 
+.subtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 40vh;
+  letter-spacing: 17px;
+  text-indent: 20px;
+}
+
 .scroll-request {
   position: relative;
-  top: 55vh;
+  top: 15vh;
 }
 .scroll-request img {
   height: 70px;

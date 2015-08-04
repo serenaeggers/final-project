@@ -2,6 +2,8 @@
 $background-color: #8e8585;
 
 $serif: 'Crimson Text', serif;
+$sans: 'Source Sans Pro', sans-serif;
+
 $dark: #252525;
 $light: Silver;
 $medium-transparent: rgba(142,133,133,0.5);
@@ -9,7 +11,7 @@ $medium-transparent: rgba(142,133,133,0.5);
 body
 {
    background-color: $background-color;
-   height: 1000px;
+   height: 100vh;
 }
 
 header
@@ -29,10 +31,20 @@ header
    background-repeat: no-repeat;
 }
 
+.subtitle
+{
+   font-family: $sans;
+   font-weight: 300;
+   text-align: center;
+   margin-top: 40vh;
+   letter-spacing: 17px;
+   text-indent: 20px;
+}
+
 .scroll-request
 {
    position: relative;
-   top: 55vh;
+   top: 15vh;
    img
    {
       height: 70px;
@@ -57,3 +69,4 @@ main
 
    height: 100%;
 }
+
