@@ -1,9 +1,10 @@
 body {
-  background-color: #666;
+  background-color: #5f5959;
+  height: 1000px;
 }
 
 header {
-  background-color: #666;
+  background-color: #5f5959;
   font-family: "Crimson Text", serif;
   font-size: 2rem;
   color: #333;
@@ -11,4 +12,8 @@ header {
   margin: 2%;
   border: 2px solid #333;
   padding: 40px;
+  background-image: url(../img/bg-halo.jpg);
+  background-position: center center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
