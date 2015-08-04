@@ -2,7 +2,7 @@
 $background-color: #5f5959;
 
 $serif: 'Crimson Text', serif;
-$dark: #333;
+$dark: #252525;
 $light: #999;
 
 body
@@ -18,9 +18,9 @@ header
    font-size: 2rem;
    color: $dark;
    text-align: center;
-   margin: 2%;
+   margin: 5vh;
    border: 2px solid $dark;
-   padding: 40px;
+   height: 90vh;
 
    background-image: url(../img/bg-halo.jpg);
    background-position: center center;
