@@ -2,9 +2,19 @@
 $background-color: #666;
 
 $serif: 'Crimson Text', serif;
+$dark-font: #333;
+$light-font: #999;
 
 body
 {
    background-color: $background-color;
+}
+
+header
+{
+   background-color: $background-color;
    font-family: $serif;
+   font-size: 4rem;
+   color: $dark-font;
+   text-align: center;
 }

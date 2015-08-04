@@ -1,4 +1,11 @@
 body {
   background-color: #666;
+}
+
+header {
+  background-color: #666;
   font-family: "Crimson Text", serif;
+  font-size: 4rem;
+  color: #333;
+  text-align: center;
 }
