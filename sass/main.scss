@@ -1,7 +1,10 @@
 
 $background-color: #666;
 
+$serif: 'Crimson Text', serif;
+
 body
 {
    background-color: $background-color;
+   font-family: $serif;
 }
