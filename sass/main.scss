@@ -3,7 +3,7 @@ $background-color: #8e8585;
 
 $serif: 'Crimson Text', serif;
 $dark: #252525;
-$light: #999;
+$light: Silver;
 
 body
 {
@@ -26,6 +26,17 @@ header
    background-position: center center;
    background-size: auto 100%;
    background-repeat: no-repeat;
+}
+
+.scroll-request
+{
+   position: relative;
+   top: 60vh;
+   img
+   {
+      height: 80px;
+      width: auto;
+   }
 }
 
 h1

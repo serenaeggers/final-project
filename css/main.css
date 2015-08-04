@@ -18,6 +18,15 @@ header {
   background-repeat: no-repeat;
 }
 
+.scroll-request {
+  position: relative;
+  top: 60vh;
+}
+.scroll-request img {
+  height: 80px;
+  width: auto;
+}
+
 h1 {
   font-size: 4rem;
   position: relative;
