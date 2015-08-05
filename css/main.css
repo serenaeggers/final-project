@@ -1,6 +1,6 @@
 body {
   background-color: #8e8585;
-  height: 100vh;
+  height: 93vh;
 }
 
 header {
@@ -51,7 +51,7 @@ main {
 }
 
 h2 {
-  height: 32vh;
+  height: 31vh;
   font-size: 4rem;
   font-family: "Crimson Text", serif;
   color: Silver;
@@ -71,7 +71,7 @@ h2 div {
 h2:nth-child(1) {
   background-image: url(../img/woman-on-moon.jpg);
   background-size: 100% auto;
-  background-position: -5vw 63%;
+  background-position: -40px 63%;
 }
 
 h2:nth-child(2) {
@@ -81,7 +81,26 @@ h2:nth-child(2) {
 }
 
 h2:nth-child(3) {
-  background-image: url(../img/nearsights.jpg);
-  background-size: 90% auto;
-  background-position: center 18vw;
+  background-image: url(../img/cusinga.jpg);
+  background-size: 200% auto;
+  background-position: right 150px;
+}
+
+footer {
+  color: Silver;
+  background-color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 7vh;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+footer div {
+  text-align: center;
+  width: 25%;
+  height: 7vh;
+  float: left;
+  background-color: black;
 }
