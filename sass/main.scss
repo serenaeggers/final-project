@@ -52,6 +52,11 @@ header
    }
 }
 
+main
+{
+   background-color: $dark;
+}
+
 h1
 {
    font-size: 4rem;
@@ -70,25 +75,38 @@ h2
    font-size: 4rem;
    font-family: $serif;
    color: $light;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   width: 80vw;
+   position: relative;
+   left: 10vw;
 
    div
    {
-         background-color: rgba(0,0,0,0.8);
+         background-color: rgba(0,0,0,0.7);
          text-align: center;
-         width: 80vw;
          height: 100%;
-         position: relative;
-         left: 10vw;
          line-height: 3em;
    }
 }
 
 h2:nth-child(1)
 {
-   background-image: url(../img/will.jpg);
-   background-attachment: fixed;
-   background-position: center center;
+   background-image: url(../img/woman-on-moon.jpg);
    background-size: 100% auto;
-   background-repeat: no-repeat;
+   background-position: -5vw 63%;
 }
 
+h2:nth-child(2)
+{
+   background-image: url(../img/tiles.jpg);
+   background-size: 120% auto;
+   background-position: 65% 64%;
+}
+
+h2:nth-child(3)
+{
+   background-image: url(../img/nearsights.jpg);
+   background-size: 90% auto;
+   background-position: center 18vw;
+}
