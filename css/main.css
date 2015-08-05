@@ -8,6 +8,9 @@ header {
   font-family: "Crimson Text", serif;
   font-size: 2rem;
   color: #252525;
+}
+
+.splash {
   text-align: center;
   margin: 5vh;
   border: 2px solid #252525;
@@ -36,10 +39,6 @@ header {
   width: 40px;
 }
 
-main {
-  background-color: #252525;
-}
-
 h1 {
   font-size: 4rem;
   position: relative;
@@ -47,6 +46,7 @@ h1 {
 }
 
 main {
+  background-color: #252525;
   height: 100%;
 }
 
