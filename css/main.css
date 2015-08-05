@@ -111,6 +111,7 @@ footer div {
 footer div:hover {
   color: #8e8585;
   border-top: 1px solid #8e8585;
+  height: 6.9vh;
 }
 
 a {
