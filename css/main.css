@@ -183,9 +183,10 @@ h3 {
 }
 
 .gallery {
-  height: 100%;
+  height: 100vh;
   padding-left: 7vw;
   padding-top: 3vw;
+  background-color: #252525;
 }
 .gallery a {
   width: 22vw;
@@ -199,7 +200,9 @@ h3 {
 }
 .gallery p {
   color: #252525;
+  background-color: #252525;
   clear: both;
+  margin: 10vh;
 }
 
 footer.longpage {

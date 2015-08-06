@@ -11,9 +11,10 @@ h3
 
 .gallery
 {
-   height: 100%;
+   height: 100vh;
    padding-left: 7vw;
    padding-top: 3vw;
+   background-color: $dark;
 
    a{
       width: 22vw;
@@ -29,7 +30,9 @@ h3
    p
    {
       color: $dark;
+      background-color: $dark;
       clear: both;
+      margin: 10vh;
    }
 }
 
