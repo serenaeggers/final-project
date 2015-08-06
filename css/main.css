@@ -182,8 +182,24 @@ h3 {
   padding-bottom: 1rem;
 }
 
-.gallery a img {
-  width: 35vw;
+.gallery {
+  height: 100%;
+  padding-left: 7vw;
+  padding-top: 3vw;
+}
+.gallery a {
+  width: 22vw;
+  height: 20vw;
+  background-color: red;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  float: left;
+}
+.gallery p {
+  color: #252525;
+  clear: both;
 }
 
 footer.longpage {
