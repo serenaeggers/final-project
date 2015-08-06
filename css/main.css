@@ -1,175 +1,35 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+/*
+Error: Invalid CSS after "...gory-page.scss'": expected selector or at-rule, was "@import 'conten..."
+        on line 163 of sass/main.scss
+
+158:    text-decoration: none;
+159:    color: $light;
+160: }
+161: 
+162: @import 'category-page.scss'
+163: @import 'content-page.scss'
+
+Backtrace:
+sass/main.scss:163
+/home/Eggers PC/.gem/ruby/gems/sass-3.4.16/lib/sass/scss/parser.rb:1162:in `expected'
+/home/Eggers PC/.gem/ruby/gems/sass-3.4.16/lib/sass/scss/parser.rb:1098:in `expected'
+/home/Eggers PC/.gem/ruby/gems/sass-3.4.16/lib/sass/scss/parser.rb:43:in `parse'
+/home/Eggers PC/.gem/ruby/gems/sass-3.4.16/lib/sass/engine.rb:403:in `_to_tree'
+/home/Eggers PC/.gem/ruby/gems/sass-3.4.16/lib/sass/engine.rb:278:in `render'
+/home/Eggers PC/.gem/ruby/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/Eggers PC/.gem/ruby/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/Eggers PC/.gem/ruby/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `each'
+/home/Eggers PC/.gem/ruby/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/Eggers PC/.gem/ruby/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/home/Eggers PC/.gem/ruby/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/usr/share/gems/gems/listen-2.10.0/lib/listen/listener.rb:291:in `call'
+/usr/share/gems/gems/listen-2.10.0/lib/listen/listener.rb:291:in `_process_changes'
+/usr/share/gems/gems/listen-2.10.0/lib/listen/listener.rb:255:in `block in _wait_for_changes'
+/usr/share/gems/gems/listen-2.10.0/lib/listen/listener.rb:238:in `loop'
+/usr/share/gems/gems/listen-2.10.0/lib/listen/listener.rb:238:in `_wait_for_changes'
+/usr/share/gems/gems/listen-2.10.0/lib/listen/listener.rb:327:in `block in _start_wait_thread'
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* end of base stylesheet*/
-body {
-  background-color: #8e8585;
-  height: 93vh;
-}
-
-header {
-  background-color: #8e8585;
-  font-family: "Crimson Text", serif;
-  font-size: 2rem;
-  color: #252525;
-}
-
-.splash {
-  text-align: center;
-  margin: 5vh;
-  border: 2px solid #252525;
-  height: 90vh;
-  background-image: url(../img/bg-halo.jpg);
-  background-position: center center;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-}
-
-.subtitle {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  text-align: center;
-  margin-top: 38vh;
-  letter-spacing: 17px;
-  text-indent: 20px;
-}
-
-.scroll-request {
-  position: relative;
-  top: 15vh;
-}
-.scroll-request img {
-  height: 70px;
-  width: 40px;
-}
-
-h1 {
-  font-size: 4rem;
-  position: relative;
-  top: 39%;
-}
-
-main {
-  background-color: #252525;
-  height: 100%;
-}
-
-h2 {
-  height: 31vh;
-  font-size: 4rem;
-  font-family: "Crimson Text", serif;
-  color: Silver;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  width: 80vw;
-  position: relative;
-  left: 10vw;
-}
-h2 div {
-  background-color: rgba(0, 0, 0, 0.7);
-  text-align: center;
-  height: 100%;
-  line-height: 3em;
-  transition: 0.75s;
-}
-h2 div:hover {
-  background-color: #050505;
-}
-
-h2:nth-child(1) {
-  background-image: url(../img/woman-on-moon.jpg);
-  background-size: 100% auto;
-  background-position: -40px 63%;
-}
-
-h2:nth-child(2) {
-  background-image: url(../img/tiles.jpg);
-  background-size: 120% auto;
-  background-position: 65% 64%;
-}
-
-h2:nth-child(3) {
-  background-image: url(../img/cusinga.jpg);
-  background-size: 200% auto;
-  background-position: right 150px;
-}
-
-footer {
-  color: Silver;
-  background-color: black;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  font-size: 1.5rem;
-  line-height: 7vh;
-  margin: 0;
-  border: 0;
-  padding: 0;
-}
-footer div {
-  text-align: center;
-  width: 25%;
-  height: 7vh;
-  float: left;
-  background-color: black;
-}
-footer div:hover {
-  color: #8e8585;
-  border-top: 1px solid #8e8585;
-  height: 6.9vh;
-}
-
-a {
-  text-decoration: none;
-  color: Silver;
-}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...gory-page.scss'\": expected selector or at-rule, was \"@import 'conten...\"\A         on line 163 of sass/main.scss\A \A 158:    text-decoration: none;\A 159:    color: $light;\A 160: }\A 161: \A 162: @import 'category-page.scss'\A 163: @import 'content-page.scss'"; }
