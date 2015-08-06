@@ -1,0 +1,97 @@
+#illustration-gallery
+{
+   a:nth-child(1)
+   {
+      background-image: url(../img/SIN.jpg);
+   }
+   a:nth-child(2)
+   {
+      background-image: url(../img/candy-mountain.jpg);
+      background-position: bottom;
+   }
+   a:nth-child(3)
+   {
+      background-image: url(../img/sphinx.jpg);
+   }
+   a:nth-child(4)
+   {
+      background-image: url(../img/magic-carpet.jpg);
+      background-position: auto top;
+      background-size: 100% 100%;
+   }
+   a:nth-child(5)
+   {
+      background-image: url(../img/woman-on-moon.jpg);
+      background-size: 105% auto;
+      background-position: bottom;
+   }
+   a:nth-child(6)
+   {
+      background-image: url(../img/pigeons.jpg);
+      background-size: auto 100%;
+      background-position: left;
+   }
+}
+
+#fine-art-gallery
+{
+   a:nth-child(1)
+   {
+      background-image: url(../img/will.jpg);
+   }
+   a:nth-child(2)
+   {
+      background-image: url(../img/christian.jpg);
+   }
+   a:nth-child(3)
+   {
+      background-image: url(../img/shoes.jpg);
+   }
+   a:nth-child(4)
+   {
+      background-image: url(../img/tiles.jpg);
+   }
+   a:nth-child(5)
+   {
+      background-image: url(../img/hair-self-portrait.jpg);
+   }
+   a:nth-child(6)
+   {
+      background-image: url(../img/flies-detail.jpg);
+   }
+}
+
+#design-gallery
+{
+   a:nth-child(1)
+   {
+      background-image: url(../img/KVcal.jpg);
+      background-size: 300% auto;
+      background-position: -25vw center;
+   }
+   a:nth-child(2)
+   {
+      background-image: url(../img/zenith.jpg);
+   }
+   a:nth-child(3)
+   {
+      background-image: url(../img/nearsights.jpg);
+      background-size: 200% auto;
+      background-position: 0% 50vh;
+   }
+   a:nth-child(4)
+   {
+      background-image: url(../img/aiken-detail.jpg);
+      background-size: 100% auto;
+   }
+   a:nth-child(5)
+   {
+      background-image: url(../img/trees.jpg);
+   }
+   a:nth-child(6)
+   {
+      background-image: url(../img/cusinga.jpg);
+      background-size: 300% auto;
+      background-position: left;
+   }
+}
