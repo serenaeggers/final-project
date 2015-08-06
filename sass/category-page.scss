@@ -25,9 +25,18 @@ h3
       margin-bottom: 2vw;
       float: left;
 
+      box-shadow: inset 0 0 10px rgba(0,0,0,0.7);
+
       background-size: 30vw auto;
       background-position: center center;
       background-image: url(../img/gibraltar.jpg);
+
+      transition: 0.5s;
+   }
+
+   a:hover
+   {
+      box-shadow: inset 0 0 20px 30% rgba(0,0,0,0.7);
    }
 
    p
