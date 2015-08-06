@@ -213,3 +213,20 @@ footer.longpage {
   left: 0;
   width: 100vw;
 }
+
+aside {
+  background-color: #8e8585;
+  width: 33%;
+  height: 93vh;
+  float: left;
+}
+
+div.frame {
+  width: 66%;
+  height: 93vh;
+  float: right;
+  background-color: #252525;
+}
+div.frame a img {
+  width: 300px;
+}
