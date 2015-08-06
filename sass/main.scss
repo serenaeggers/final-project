@@ -142,13 +142,13 @@ footer
       height: 7vh;
       float: left;
       background-color: rgb(0,0,0);
+      transition: 0.3s;
    }
 
    div:hover
    {
       color: $medium;
-      border-top: 1px solid $medium;
-      height: 6.9vh;
+      background-color: lighten(black,8%);
    }
 }
 
