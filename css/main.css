@@ -102,7 +102,6 @@ h1 {
 
 main {
   background-color: #252525;
-  height: 100%;
 }
 
 h2 {
@@ -172,6 +171,15 @@ footer div:hover {
 a {
   text-decoration: none;
   color: Silver;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #252525;
+  margin: 10px;
+  padding: 0;
+  padding-bottom: 1rem;
 }
 
 .gallery a img {
