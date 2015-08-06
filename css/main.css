@@ -139,9 +139,9 @@ h2:nth-child(2) {
 }
 
 h2:nth-child(3) {
-  background-image: url(../img/gibraltar.jpg);
+  background-image: url(../img/trees.jpg);
   background-size: 100% auto;
-  background-position: center -5%;
+  background-position: center 60%;
 }
 
 footer {
