@@ -1,0 +1,22 @@
+.sidebar
+{
+   .return
+   {
+      height: 100vh;
+   }
+}
+
+.backdrop
+{
+   background-color: $dark;
+   padding-left: 10vh;
+   padding-top: 5vh;
+   padding-bottom: 5vh;
+   img{
+      max-width: 1300px;
+      max-height: 1300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
