@@ -1,0 +1,54 @@
+.non-main
+{
+   background-color: $dark;
+}
+
+.info
+{
+   min-height: 70vh;
+   color: $light;
+   background-color: $dark;
+   font-size: 1.5rem;
+   padding-top: 10vh;
+   padding-bottom: 15vh;
+   border-left: 10vw solid lighten(black,5%);
+   border-right: 10vw solid lighten(black,5%);
+
+   p
+   {
+      font-family: $sans;
+      font-weight: 300;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      padding: 1rem;
+   }
+
+   p.address
+   {
+      margin-left: 30vw;
+   }
+}
+
+#about
+{
+   width: 30%;
+   height: auto;
+   font-family: $sans;
+   padding-bottom: 15vh;
+
+   h4
+   {
+      padding-left: 15%;
+      padding-right: 15%;
+      font-family: $serif;
+   }
+
+   p
+   {
+      font-weight: 300;
+      font-size: 1.2rem;
+      padding-left: 8%;
+      padding-right: 8%;
+   }
+}
+

@@ -384,45 +384,12 @@ div.frame a p {
   background-position: left;
 }
 
-.non-main {
-  background-color: #252525;
-}
-
 .info {
-  min-height: 70vh;
+  height: 93vh;
   color: Silver;
-  background-color: #252525;
   font-size: 1.5rem;
-  padding-top: 10vh;
-  padding-bottom: 15vh;
-  border-left: 10vw solid #0d0d0d;
-  border-right: 10vw solid #0d0d0d;
-}
-.info p {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  padding: 1rem;
-}
-.info p.address {
-  margin-left: 30vw;
 }
 
 #about {
-  width: 30%;
-  height: auto;
-  font-family: "Source Sans Pro", sans-serif;
-  padding-bottom: 15vh;
-}
-#about h4 {
-  padding-left: 15%;
-  padding-right: 15%;
-  font-family: "Crimson Text", serif;
-}
-#about p {
-  font-weight: 300;
-  font-size: 1.2rem;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding: 5vw;
 }

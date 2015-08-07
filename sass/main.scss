@@ -160,7 +160,13 @@ a
    color: $light;
 }
 
+b
+{
+   font-weight: 400;
+}
+
 @import 'category-page.scss';
 @import 'content-page.scss';
 @import 'image-page.scss';
 @import 'galleries.scss';
+@import 'plain-page.scss';
