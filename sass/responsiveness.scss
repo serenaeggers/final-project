@@ -1,0 +1,133 @@
+@media all and (max-width: 1200px)
+{
+   aside
+   {
+      h4
+      {
+         font-size: 1.5rem;
+      }
+      p
+      {
+         font-size: 1rem;
+      }
+   }
+}
+
+@media all and (max-width: 500px)
+{
+   h1
+   {
+      font-size: 1.5rem;
+   }
+
+   .subtitle
+   {
+      font-size: 1rem;
+      letter-spacing: 2px;
+   }
+
+   h2
+   {
+      div{
+         font-size: 1.5rem;
+         line-height: 30vh;
+      }
+   }
+
+h3
+{
+   margin-bottom:20px;
+   padding-bottom: 20px;
+   font-size: 1.5rem;
+   padding-top: 1rem;
+}
+   div.gallery
+   {
+      padding-right: auto;
+      padding-left: auto;
+
+      a
+      {
+         width: 35vw;
+         height: 34vw;
+         margin-left: 1vw;
+         margin-right: 1vw;
+      }
+      a:nth-child(n)
+      {
+         background-repeat: no-repeat;
+         background-size: auto 150%;
+      }
+   }
+
+   aside
+   {
+      width: 100vw;
+      height: auto;
+
+   h4
+      {
+         margin-top: 1rem;
+         margin-left: 10vw;
+         margin-left: 10vw;
+         margin-bottom: 1rem;
+         padding-bottom: 1rem;
+         padding: 30px;
+      }
+   }
+
+   aside#about
+   {
+      width: 100%;
+      h4
+      {
+         margin-left: 5vw;
+      }
+   }
+
+   div.frame
+   {
+      width: 100%;
+      height: auto;
+      a{
+         img{
+            width: 90%;
+            height: auto;
+            margin-bottom: 5vh;
+         }
+      }
+   }
+
+   .info
+   {
+      p{
+         font-size: 1.2rem;
+      }
+
+      p.address
+      {
+         margin-left: 15vw;
+      }
+   }
+
+   a.return
+   {
+      width: 5vw;
+
+      img{
+         height: 8vw;
+         width: 2.5vw;
+         left: 0.5vw;
+      }
+   }
+
+   footer
+   {
+      font-size: 1.2rem;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100vw;
+   }
+}
+

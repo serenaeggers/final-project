@@ -1,6 +1,6 @@
-.non-main
+.bodymain
 {
-   background-color: $dark;
+   background-color: $medium;
 }
 
 .info
@@ -33,6 +33,7 @@
 {
    width: 30%;
    height: auto;
+   min-height: 93vh;
    font-family: $sans;
    padding-bottom: 15vh;
 

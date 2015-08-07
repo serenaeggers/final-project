@@ -3,7 +3,6 @@
 
 /* end of base stylesheet*/
 
-
 $medium: #8e8585;
 
 $serif: 'Crimson Text', serif;
@@ -15,7 +14,7 @@ $medium-transparent: rgba(142,133,133,0.5);
 
 body
 {
-   background-color: $medium;
+   background-color: $dark;
    height: 93vh;
 }
 
@@ -170,3 +169,4 @@ b
 @import 'image-page.scss';
 @import 'galleries.scss';
 @import 'plain-page.scss';
+@import 'responsiveness.scss';
